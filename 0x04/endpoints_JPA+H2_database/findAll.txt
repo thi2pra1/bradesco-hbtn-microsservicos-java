@@ -1,53 +1,29 @@
 [
     {
-        "enderecos": [
-            {
-                "bairro": "CENTRO",
-                "cidade": "CIDADE DO NORTE",
-                "endereco": "ALI PERTO",
-                "estado": "SP",
-                "id": 1,
-                "logradouro": "AVENIDA",
-                "numero": "100"
-            }
-        ],
         "email": "zezinho@email.com",
-        "id": 1,
-        "idade": 40,
         "nome": "Ze Fulano",
+        "idade": 40,
         "telefones": [
             {
                 "ddd": "18",
-                "id": 3,
-                "numero": "98253636"
+                "numero": "98253636",
+                "id": 3
             }
         ]
     },
     {
-        "enderecos": [
-            {
-                "bairro": "JARDIM BONITO",
-                "cidade": "CIDADE DO NORTE",
-                "endereco": "LÁ LONGE",
-                "estado": "SP",
-                "id": 2,
-                "logradouro": "RUA",
-                "numero": "487"
-            }
-        ],
-        "email": "manoel@email.com",
         "id": 2,
-        "idade": 26,
         "nome": "Manoel Antunes",
+        "idade": 26,
+        "email": "manoel@email.com",
         "telefones": [
             {
                 "ddd": "14",
-                "id": 1,
-                "numero": "35445585"
+                "numero": "35445585",
+                "id": 1
             },
             {
                 "ddd": "14",
-                "id": 2,
                 "numero": "99668855"
             }
         ]
