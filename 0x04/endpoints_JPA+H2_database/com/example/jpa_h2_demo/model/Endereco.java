@@ -17,34 +17,34 @@ public class Endereco {
     @Column(name = "numero")
     private String numero;
 
-    @Column(name = "endereco")
-    private String endereco;
-
     @Column(name = "bairro")
     private String bairro;
 
     @Column(name = "cidade")
     private String cidade;
 
+    @Column(name = "endereco")
+    private String endereco;
+
     @Column(name = "estado")
     private String estado;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "cliente_id", nullable = false)
-    @JsonBackReference
+    @JsonBackReference("cliente-enderecos")
     private Cliente cliente;
 
     // Default constructor
     public Endereco() {}
 
     // Constructor with parameters
-    public Endereco(String logradouro, String numero, String endereco, String bairro,
-                   String cidade, String estado, Cliente cliente) {
+    public Endereco(String logradouro, String numero, String bairro, String cidade,
+                   String endereco, String estado, Cliente cliente) {
         this.logradouro = logradouro;
         this.numero = numero;
-        this.endereco = endereco;
         this.bairro = bairro;
         this.cidade = cidade;
+        this.endereco = endereco;
         this.estado = estado;
         this.cliente = cliente;
     }
@@ -74,14 +74,6 @@ public class Endereco {
         this.numero = numero;
     }
 
-    public String getEndereco() {
-        return endereco;
-    }
-
-    public void setEndereco(String endereco) {
-        this.endereco = endereco;
-    }
-
     public String getBairro() {
         return bairro;
     }
@@ -96,6 +88,14 @@ public class Endereco {
 
     public void setCidade(String cidade) {
         this.cidade = cidade;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
     }
 
     public String getEstado() {

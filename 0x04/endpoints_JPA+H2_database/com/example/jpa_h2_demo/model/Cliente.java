@@ -23,11 +23,11 @@ public class Cliente {
     private Integer idade;
 
     @OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    @JsonManagedReference
+    @JsonManagedReference("cliente-telefones")
     private List<Telefone> telefones = new ArrayList<>();
 
     @OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    @JsonManagedReference
+    @JsonManagedReference("cliente-enderecos")
     private List<Endereco> enderecos = new ArrayList<>();
 
     // Default constructor

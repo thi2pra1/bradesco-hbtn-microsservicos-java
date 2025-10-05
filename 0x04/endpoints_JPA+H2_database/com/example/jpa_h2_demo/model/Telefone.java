@@ -11,24 +11,24 @@ public class Telefone {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "numero", nullable = false)
-    private String numero;
-
     @Column(name = "ddd")
     private String ddd;
 
+    @Column(name = "numero", nullable = false)
+    private String numero;
+
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "cliente_id", nullable = false)
-    @JsonBackReference
+    @JsonBackReference("cliente-telefones")
     private Cliente cliente;
 
     // Default constructor
     public Telefone() {}
 
     // Constructor with parameters
-    public Telefone(String numero, String ddd, Cliente cliente) {
-        this.numero = numero;
+    public Telefone(String ddd, String numero, Cliente cliente) {
         this.ddd = ddd;
+        this.numero = numero;
         this.cliente = cliente;
     }
 
@@ -41,20 +41,20 @@ public class Telefone {
         this.id = id;
     }
 
-    public String getNumero() {
-        return numero;
-    }
-
-    public void setNumero(String numero) {
-        this.numero = numero;
-    }
-
     public String getDdd() {
         return ddd;
     }
 
     public void setDdd(String ddd) {
         this.ddd = ddd;
+    }
+
+    public String getNumero() {
+        return numero;
+    }
+
+    public void setNumero(String numero) {
+        this.numero = numero;
     }
 
     public Cliente getCliente() {
