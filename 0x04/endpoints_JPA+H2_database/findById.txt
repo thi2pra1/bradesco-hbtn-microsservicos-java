@@ -1,29 +1,29 @@
 {
-    "id": 2,
-    "nome": "Manoel Antunes",
+    "enderecos": [
+        {
+            "bairro": "JARDIM BONITO",
+            "cidade": "CIDADE DO NORTE",
+            "endereco": "LÁ LONGE",
+            "estado": "SP",
+            "id": 2,
+            "logradouro": "RUA",
+            "numero": "487"
+        }
+    ],
     "email": "manoel@email.com",
+    "id": 2,
     "idade": 26,
+    "nome": "Manoel Antunes",
     "telefones": [
         {
-            "id": 1,
             "ddd": "14",
+            "id": 1,
             "numero": "35445585"
         },
         {
-            "id": 2,
             "ddd": "14",
-            "numero": "99668855"
-        }
-    ],
-    "enderecos": [
-        {
             "id": 2,
-            "logradouro": "RUA",
-            "numero": "487",
-            "endereco": "LÁ LONGE",
-            "bairro": "JARDIM BONITO",
-            "cidade": "CIDADE DO NORTE",
-            "estado": "SP"
+            "numero": "99668855"
         }
     ]
 }
