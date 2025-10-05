@@ -1,13 +1,25 @@
 [
     {
-        "email": "zezinho@email.com",
+        "id": 1,
         "nome": "Ze Fulano",
         "idade": 40,
+        "email": "zezinho@email.com",
         "telefones": [
             {
                 "ddd": "18",
-                "numero": "98253636",
-                "id": 3
+                "id": 3,
+                "numero": "98253636"
+            }
+        ],
+        "enderecos": [
+            {
+                "id": 1,
+                "logradouro": "AVENIDA",
+                "endereco": "ALI PERTO",
+                "numero": "100",
+                "bairro": "CENTRO",
+                "cidade": "CIDADE DO NORTE",
+                "estado": "SP"
             }
         ]
     },
@@ -19,12 +31,24 @@
         "telefones": [
             {
                 "ddd": "14",
-                "numero": "35445585",
-                "id": 1
+                "id": 1,
+                "numero": "35445585"
             },
             {
                 "ddd": "14",
+                "id": 2,
                 "numero": "99668855"
+            }
+        ],
+        "enderecos": [
+            {
+                "id": 2,
+                "logradouro": "RUA",
+                "endereco": "LÁ LONGE",
+                "numero": "487",
+                "bairro": "JARDIM BONITO",
+                "cidade": "CIDADE DO NORTE",
+                "estado": "SP"
             }
         ]
     }
