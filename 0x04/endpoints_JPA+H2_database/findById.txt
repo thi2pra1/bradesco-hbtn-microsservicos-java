@@ -6,13 +6,13 @@
     "telefones": [
         {
             "ddd": "14",
-            "numero": "35445585",
-            "id": 1
+            "id": 1,
+            "numero": "35445585"
         },
         {
             "ddd": "14",
-            "numero": "99668855",
-            "id": 2
+            "id": 2,
+            "numero": "99668855"
         }
     ],
     "enderecos": [
