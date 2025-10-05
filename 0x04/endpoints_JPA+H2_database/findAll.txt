@@ -16,9 +16,9 @@
                 "id": 1,
                 "logradouro": "AVENIDA",
                 "numero": "100",
-                "endereco": "ALI PERTO",
                 "bairro": "CENTRO",
                 "cidade": "CIDADE DO NORTE",
+                "endereco": "ALI PERTO",
                 "estado": "SP"
             }
         ]
@@ -45,9 +45,9 @@
                 "id": 2,
                 "logradouro": "RUA",
                 "numero": "487",
-                "endereco": "LÁ LONGE",
                 "bairro": "JARDIM BONITO",
                 "cidade": "CIDADE DO NORTE",
+                "endereco": "LÁ LONGE",
                 "estado": "SP"
             }
         ]
