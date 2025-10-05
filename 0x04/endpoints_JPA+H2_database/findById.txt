@@ -2,6 +2,7 @@
     "id": 2,
     "nome": "Manoel Antunes",
     "email": "manoel@email.com",
+    "idade": 26,
     "telefones": [
         {
             "id": 1,
@@ -14,15 +15,14 @@
             "numero": "99668855"
         }
     ],
-    "idade": 26,
     "enderecos": [
         {
             "id": 2,
             "logradouro": "RUA",
             "numero": "487",
+            "endereco": "LÁ LONGE",
             "bairro": "JARDIM BONITO",
             "cidade": "CIDADE DO NORTE",
-            "endereco": "LÁ LONGE",
             "estado": "SP"
         }
     ]
