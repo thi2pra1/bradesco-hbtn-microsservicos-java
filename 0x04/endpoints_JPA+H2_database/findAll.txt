@@ -3,6 +3,7 @@
         "id": 1,
         "nome": "Ze Fulano",
         "email": "zezinho@email.com",
+        "idade": 40,
         "telefones": [
             {
                 "id": 3,
@@ -15,18 +16,18 @@
                 "id": 1,
                 "logradouro": "AVENIDA",
                 "numero": "100",
+                "endereco": "ALI PERTO",
                 "bairro": "CENTRO",
                 "cidade": "CIDADE DO NORTE",
-                "endereco": "ALI PERTO",
                 "estado": "SP"
             }
-        ],
-        "idade": 40
+        ]
     },
     {
         "id": 2,
         "nome": "Manoel Antunes",
         "email": "manoel@email.com",
+        "idade": 26,
         "telefones": [
             {
                 "id": 1,
@@ -44,12 +45,11 @@
                 "id": 2,
                 "logradouro": "RUA",
                 "numero": "487",
+                "endereco": "LÁ LONGE",
                 "bairro": "JARDIM BONITO",
                 "cidade": "CIDADE DO NORTE",
-                "endereco": "LÁ LONGE",
                 "estado": "SP"
             }
-        ],
-        "idade": 26
+        ]
     }
 ]
