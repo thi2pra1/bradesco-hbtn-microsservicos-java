@@ -5,4 +5,3 @@
     "album": "Appetite for Destruction",
     "anoLancamento": "1987"
 }
-
