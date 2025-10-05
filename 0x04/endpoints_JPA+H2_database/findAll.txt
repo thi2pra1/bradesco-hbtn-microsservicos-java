@@ -10,6 +10,7 @@
                 "numero": "98253636"
             }
         ],
+        "idade": 40,
         "enderecos": [
             {
                 "id": 1,
@@ -39,6 +40,7 @@
                 "numero": "99668855"
             }
         ],
+        "idade": 26,
         "enderecos": [
             {
                 "id": 2,
